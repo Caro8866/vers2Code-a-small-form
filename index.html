@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code a small form Exercise</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form name="contact" method="POST" data-netlify="true" autocomplete="on">
+      <label for="name"
+        >First Name
+        <input type="text" name="name" id="name" placeholder="Caroline" />
+      </label>
+      <label for="surname"
+        >Surname
+        <input type="text" name="surname" id="surname" placeholder="Thostrup" />
+      </label>
+      <label for="age"
+        >Age
+        <input
+          type="number"
+          name="age"
+          id="age"
+          min="0"
+          max="100"
+          placeholder="21"
+        />
+      </label>
+      <label for="email"
+        >Email
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="name@email.com"
+        />
+      </label>
+      <label for="password"
+        >Password
+        <input type="password" name="password" id="password" />
+      </label>
+      <label for="pizza"
+        >Favourite Pizza
+
+        <select name="pizza" id="pizza">
+          <option value="pizza">Margharita</option>
+          <option value="pizza">Pizza Napoletana</option>
+          <option value="pizza">Pizza alla Pala</option>
+          <option value="pizza">Pizza Tonda Romana</option>
+          <option value="pizza">Pizza Fritta</option>
+          <option value="pizza">Pizza Siciliana</option>
+        </select>
+      </label>
+      <label for="comment"
+        >Why is that your favourite pizza?
+        <textarea name="message" id="comment"></textarea>
+      </label>
+
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
+<!-- Make a new project in VS Code with an "index.html" and a "style.css" file
+Make a <form>
+Inside the form make
+5 different input types
+1 textarea
+1 submit button
+Add labels and attributes to your elements (not all attributes works on all elements) Try e.g.: placeholder, value, readonly, disabled, required, maxlength
+Style the form and it's elements (optional - but perhaps just style it a a little depending on the time?)
+Set up Netlify so that you can collect the user inputs from the form (do it ;-) ) (videos) -->

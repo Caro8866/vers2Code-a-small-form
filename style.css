@@ -1,0 +1,7 @@
+form {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  gap: 1rem;
+}
